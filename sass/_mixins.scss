@@ -1,0 +1,46 @@
+@mixin query($breakpoint) { 
+
+  @if $breakpoint==mobile {
+    @media (max-width: 575.98px) { 
+      @content;
+    }
+  }
+
+  @if $breakpoint==laptop {
+    @media (min-width: 991.98px) { 
+      @content;  
+    }
+  } 
+
+  @if $breakpoint==laptop-lg {
+    @media (min-width: 1200px) { 
+      @content;  
+    }
+  } 
+  
+  @if $breakpoint==desktop {
+    
+  }
+  
+  @if $breakpoint==tablet {
+    @media only screen and (min-width: 576.02px) and (max-width: 768.98px) { 
+      @content;  
+    }
+  } 
+}
+
+
+@mixin keyframe($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}

@@ -1,0 +1,109 @@
+.products {
+    @include query(mobile) {
+        min-width: 100% !important;
+        padding: 0 !important;
+    }
+    .heading {
+        h1 {
+            .eng {
+                img {
+                    width: 23%;
+                    @include query(mobile) {
+                        width: 75%;
+                    }
+                    @include query(tablet) {
+                        width: 40%;
+                    }
+                }
+            }
+            .turk {
+                img {
+                    width: 27%;
+                    @include query(mobile) {
+                        width: 85%;
+                    }
+                    @include query(tablet) {
+                        width: 46%;
+                    }
+                }
+            }
+        }
+    }
+    
+    p {
+        @include query(mobile) {
+            min-width: 100% !important;
+            font-size: 1.12rem;
+        }
+    }
+}
+
+.gotoshop {
+    .card {
+        width: 75%;
+        border-radius: 0;
+        @include query(mobile) {
+            min-width: 100%;        
+        }
+        .card-img {
+            border-radius: 0;
+        }
+        .card-img-overlay {
+            background-color: rgba(31, 77, 40, 0.8);
+            border-radius: 0;
+            opacity: 0;
+            &:hover {
+                opacity: 1;
+                transition: all 0.4s;
+            }
+            h2 {
+                @include query(mobile) {
+                    margin-top: 1% !important;
+                }
+            }
+        }
+    }    
+}
+
+article {
+    text-align: justify;
+    line-height: 1.65;
+    font-size: 1.03rem;
+    @include query(mobile) {
+        min-width: 100% !important;
+        font-size: 1.12rem;
+        text-align: center;
+    }
+    span {
+        @include query(mobile) {
+            text-align: center;
+        }
+    }
+   .pic-div {
+       justify-content: center;
+        .pic2 {
+            margin: $margin;
+            width: 48%;
+            @include query(mobile) {
+        
+            }
+            @include query(tablet) {
+            
+            }
+        }
+   }
+
+    .pic3 {
+        width: 37%;
+        float: left;
+        padding-right: 1rem;
+      
+        @include query(mobile) {
+            width: 100%;
+            margin: $margin;
+            padding: 0;
+            float: none;
+            padding-bottom: 2%;
+        }
+    }
+}

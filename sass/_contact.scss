@@ -1,0 +1,126 @@
+.contact {
+    @include query(mobile) {
+        min-width: 100% !important;
+        padding: 0 !important;
+    }
+    .heading {
+        h1 {
+            .eng {
+                img {
+                    width: 20%;
+                    @include query(mobile) {
+                        width: 60%;
+                    }
+                }
+            }
+            .turk {
+                img {
+                    width: 20%;
+                    @include query(mobile) {
+                        width: 57%;
+                    } 
+                }
+            }
+        }
+        p {
+            @include query(mobile) {
+                min-width: 100% !important;
+                padding: 0 !important;
+                font-size: 1.12rem;
+            }
+        }
+    }
+}
+
+.contact {
+    
+    i {
+        font-size: 2rem;
+        color: $forest;
+    }
+
+    .fa-instagram {
+        font-size: 2.2rem;
+    }
+
+   ul {
+       @include query(mobile) {
+           padding: 0;
+           max-width: 65%;
+           margin: auto;
+       }
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center; 
+            margin-bottom: 2%;
+            @include query(mobile) {
+                display: flex;
+                align-items: center; 
+            }
+        }
+   }
+
+    a {
+        text-decoration: none;
+        color: $forest;
+    }
+
+}
+
+.contact {
+   .map-div {
+        iframe {
+            min-height: 280px;
+            padding: 1px;
+        }
+   }
+    h2 {
+        font-weight: bolder;
+    }
+}
+
+.contact {
+   .cm {
+    @include query(mobile) {
+        border: none !important;
+    }
+    form {
+        @include query(mobile) {
+            min-width: 100% !important;
+            padding: 0 !important;
+            font-size: 1.12rem;
+        }
+        input, textarea {
+            border-radius: 0;
+        }
+    }
+   }
+
+    .reserve {
+        @include query(mobile) {
+            margin: $margin;
+            text-align: center;
+            min-width: 100% !important;
+            padding: 0 !important;
+            margin-bottom: 10%;
+            font-size: 1.12rem;
+        }
+    }
+
+}
+
+.cc {
+    .address-div {
+        .address {
+            img {
+                width: 10%;
+                @include query(mobile) {
+                    width: 25%;
+                    font-size: 1.12rem;
+                }
+            }
+        }
+
+    }
+}

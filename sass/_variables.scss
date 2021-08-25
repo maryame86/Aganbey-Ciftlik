@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+@font-face {font-family: "Register Sans BTN";
+  src: url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.eot"); /* IE9*/
+  src: url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/RegisterSans/RegisterSansBTN/@font-face/00e33ab22d743f78fcc84a5b079ee93c.svg#Register Sans BTN") format("svg"); /* iOS 4.1- */
+}
+
+$quicksand: 'Quicksand', sans-serif;
+
+$register: 'Register Sans BTN', 'sans-serif';
+$margin: 0 auto;
+
+$shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+// Serra's Colours //
+
+$forest: #1f4d28;
+
+$eggshell: #ebe8d3;
+
+$artichoke: #a39c77;
+
+$olive: #657533;
+
+$sage: #bec78d;

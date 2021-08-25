@@ -1,0 +1,60 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+@import "../sass/custom";
+
+@import "../sass/intro";
+@import "../sass/about";
+@import "../sass/products";
+@import "../sass/contact";
+@import "../sass/gallery";
+@import "../sass/shop";
+
+body {
+    overflow-x: hidden;
+}
+.container {
+    background-color: $eggshell;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: $margin;
+    h1 {
+        font-size: 3em;
+        @include query(mobile) {
+            font-size: 3rem;
+        } 
+    }
+
+    .whitespace {
+        height: 15vh;
+    }
+
+    button {
+        background-color: $forest;
+        color: white;
+    }
+}
+
+nav {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: $forest;
+    .dd {
+        @include query(desktop) {
+            order: 1;
+        } 
+    }
+    .lang {
+        display: flex;
+        
+        @include query(desktop) {
+            order: 2;
+        } 
+        .lng {
+            font-size: 0.85rem;
+        }
+        ul {
+            background-color: $forest;
+        }
+    }
+
+}

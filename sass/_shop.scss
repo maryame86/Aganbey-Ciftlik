@@ -1,0 +1,61 @@
+.shop {
+    @include query(mobile) {
+        min-width: 100% !important;
+        padding: 0 !important;
+    }
+    .heading {
+        h1 {
+            .eng {
+                img {
+                    width: 30%;
+                    @include query(mobile) {
+                        width: 90%;
+                    }
+                }
+            }
+            .turk {
+                img {
+                    width: 23%;
+                    @include query(mobile) {
+                        width: 67%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shop {   
+    article {
+        text-align: center;
+        font-size: 1rem;
+        h1 {
+            font-size: 1.75rem;
+        }
+        div {
+            img {
+                width: 30%;
+            }
+        }
+    }
+
+    .btn {
+        background-color: $forest;
+        color: #fff;
+    }
+
+    .myecwid {
+        @include query(mobile) {
+            padding: 0 !important;
+        }
+
+        .category {
+            img {
+                @include query(mobile) {
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+
