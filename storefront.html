@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <!--Bootstrap v5-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link href="http://db.onlinewebfonts.com/c/00e33ab22d743f78fcc84a5b079ee93c?family=Register+Sans+BTN" rel="stylesheet" type="text/css"/>
+     <link rel="stylesheet" href="sass/style.css">
+     <title>Ağanbey Çiftlik</title>
+</head>
+<body>
+<!--Base container-->
+  <div class="base container-fluid mx-auto p-0 w-100 d-block">
+            
+        <!--Main Nav-->
+        <nav class="navbar navbar-expand-lg navbar-dark forest sticky-top border-bottom border-dark" id="navbar">
+            <div class="container-fluid d-flex">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Off nav ul controls-->
+              <!--Language controls-->
+              <div class="dropdown lang mx-2 align-items-center">
+                <button class="btn btn-transparent dm-sans text-light dropdown-toggle" 
+                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="eng">Language</span>
+                  <span class="turk">Dil</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><div class="btn dm-sans text-light lng" id="TR-btn">Türkçe</div></li>
+                  <li><div class="btn text-light dm-sans lng" id="ENG-btn">English</div></li>
+                </ul>
+              </div>
+              
+              <!--Main ul/dropdown-->
+              <div class="dd collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto register">
+                  <li class="nav-item px-4">
+                    <a class="nav-link active" aria-current="page" href="index.html">
+                      <span class="eng">Home</span><span class="turk">Anasayfa</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="index.html#about">
+                      <span class="eng">Our Story</span><span class="turk">Hikayemiz</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="index.html#products">
+                      <span class="eng">Products</span><span class="turk">Ürünlerimiz</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="index.html#gallery">
+                      <span class="eng">Gallery</span><span class="turk">Galeri</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="index.html#contact">
+                      <span class="eng">Contact</span><span class="turk">İletişim</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#">
+                      <span class="eng">Online Store</span><span class="turk">Mağaza</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       
+          <div class="shop container mx-auto w-100 d-block row h-100" id="shop">
+                <!--Whitespace-->
+             <div class="whitespace w-100 mx-auto"></div>
+
+             <div class="heading row w-100 mx-auto">
+                 <h1 class="text-center py-4">
+                     <span class="turk"><img src="img/headings/magaza.png" alt="Mağaza"></span>
+                     <span class="eng"><img src="img/headings/store.png" alt="Online Store"></span>
+                 </h1>
+             </div>
+            <div class="myecwid row px-5 m-0 mx-auto d-inline-flex justify-self-center">
+                <div id="my-store-60221969"></div>
+                <div>
+                <script data-cfasync="false" type="text/javascript" 
+                src="https://app.ecwid.com/script.js?60221969&data_platform=code&data_date=2021-05-04" 
+                charset="utf-8">
+              </script>
+                <script type="text/javascript"> xProductBrowser("categoriesPerRow=3",
+                "views=grid(20,3) list(60) table(60)",
+                "categoryView=grid","searchView=list","id=my-store-60221969");
+                </script>
+                </div>
+              </div>
+         </div>
+          </div>
+        </div> 
+      <!--Footer--> 
+      <footer class=" row w-100 mx-auto forest p-3">
+        <small class="text-muted w-100 text-center dm-sans">Ağanbey Çiftlik Copyright 2021</small>
+    </footer>    
+  <!--Base container end-->
+  </div>
+
+    <!--Popper/BS js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" 
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" 
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/520de4a36e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" 
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  
+    <script defer src="js/lang.js"></script>
+</body>
+</html>

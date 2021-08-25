@@ -455,9 +455,24 @@ article .pic-div {
           justify-content: center;
 }
 
+@media (max-width: 575.98px) {
+  article .pic-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 article .pic-div .pic2 {
   margin: 0 auto;
   width: 48%;
+}
+
+@media (max-width: 575.98px) {
+  article .pic-div .pic2 {
+    width: 100%;
+  }
 }
 
 article .pic3 {
@@ -651,6 +666,10 @@ article .pic3 {
   .galleria .galleria-thumbnails .galleria-image {
     width: 150px;
   }
+}
+
+p {
+  font-size: 0.75rem;
 }
 
 @media (max-width: 575.98px) {

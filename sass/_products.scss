@@ -81,11 +81,14 @@ article {
     }
    .pic-div {
        justify-content: center;
+       @include query(mobile) {
+           flex-direction: column;
+       }
         .pic2 {
             margin: $margin;
             width: 48%;
             @include query(mobile) {
-        
+                width: 100%;
             }
             @include query(tablet) {
             
